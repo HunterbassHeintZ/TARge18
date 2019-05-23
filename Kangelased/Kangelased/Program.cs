@@ -33,6 +33,8 @@ namespace Kangelased
         }
         static void Main(string[] args)
         {
+
+           Console.WriteLine("Hello World");          
             LaeKangelased("Kangelane.txt");
             foreach (Kangelane kangelane in kangelased)
             {
@@ -41,6 +43,7 @@ namespace Kangelased
                 Console.WriteLine($"Päästa tuleb {arv} inimest.\nPäästa suudeti {kangelane.Päästa(arv)}.\n-------------------");
             }
             Console.ReadKey();
+           
         }
     }
 }
